@@ -14,6 +14,7 @@ function App() {
     <div className="App">
       <Btn>버튼</Btn>
       <div>헤더작업</div>
+      <div>작업하나 추가함</div>
       <Routes>
         <Route path='/' element={<div>메인페이지</div>}/>
         <Route path='/new' element={<div>새글페이지</div>}/>
